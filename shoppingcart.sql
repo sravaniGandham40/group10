@@ -3,7 +3,8 @@
 -- Host: localhost    Database: shopping_cart
 -- ------------------------------------------------------
 -- Server version	8.0.25
-use shopping_cart;
+
+use shoppingcart;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -149,7 +150,7 @@ CREATE TABLE `sales_log` (
 
 LOCK TABLES `sales_log` WRITE;
 /*!40000 ALTER TABLE `sales_log` DISABLE KEYS */;
-INSERT INTO `sales_log` VALUES (15,'anu','dinning',999,1,'26/6/2022-12:55:03'),(16,'san','chair',568,1,'26/6/2022-15:35:7'),(17,'ram','bed',399,1,'26/6/2022-18:27:22'),(18,'mohan','bed',499,1,'26/6/2022-18:27:22'),(19,'vikas','chair',599,1,'26/6/2022-18:30:22'),(20,'priya','chair',899,1,'26/6/2022-18:30:22'),(27,'vani','dinning',699,1,'26/6/2022-18:40:22'),(28,'amju','bed',999,1,'26/6/2022-18:40:22'),(29,'shetty','bed',1000,1,'26/6/2022-18:40:22'),(30,'mini','chair',699,1,'26/6/2022-18:40:22');
+INSERT INTO `sales_log` VALUES (15,'anu','dinning',999,1,'10-8-2022-12:55:03'),(16,'san','chair',568,1,'10-8-2022-15:35:7'),(17,'ram','bed',399,1,'10-8-2022-18:27:22'),(18,'mohan','bed',499,1,'10-8-2022-18:27:22'),(19,'vikas','chair',599,1,'10-8-2022-18:30:22'),(20,'priya','chair',899,1,'10-8-2022-18:30:22'),(27,'vani','dinning',699,1,'10-8-2022-18:40:22'),(28,'amju','bed',999,1,'10-8-2022-18:40:22'),(29,'shetty','bed',1000,1,'10-8-2022-18:40:22'),(30,'mini','chair',699,1,'10-8-2022-18:40:22');
 /*!40000 ALTER TABLE `sales_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -219,4 +220,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-26 22:39:43
+-- Dump completed on 10-8-2022 22:39:43
